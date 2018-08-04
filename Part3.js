@@ -6,3 +6,8 @@ headOne.addEventListener('mouseover', function(){
   headOne.textContent = " Mouse Currently Over";
   headOne.style.color = "red";
 })
+
+headOne.addEventListener('mouseout', function(){
+  headOne.textContent = "HOVER OVER ME";
+  headOne.style.color = "black";
+})
